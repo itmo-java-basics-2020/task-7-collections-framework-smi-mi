@@ -1,8 +1,8 @@
 package ru.ifmo.collections;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Design a class which contains integers and returns first unique integer (in order of addition).
@@ -11,7 +11,7 @@ import java.util.LinkedList;
 public class FirstUnique {
 
     private static final int NO_UNIQUES = -1;
-    private final LinkedList<Integer> list;
+    private final List<Integer> list;
     private int firstUnique = NO_UNIQUES;
 
     public FirstUnique(int[] numbers) {
